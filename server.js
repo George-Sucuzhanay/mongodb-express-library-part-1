@@ -11,7 +11,7 @@ app.use(cors())
 PORT = process.env.PORT
 MONGO_URI = process.env.MONGO_URI
 
-mongoose.connect("mongodb+srv://m001-student:m001-mongodb-basics@sandbox.al2fi.mongodb.net/secondDatabase?retryWrites=true&w=majority", {useNewUrlParser: true, useUnifiedTopology: true})
+mongoose.connect("YOUR DATABASE LINK", {useNewUrlParser: true, useUnifiedTopology: true})
 .then(() => console.log('MongoDB Connected...'))
 .catch((err) => console.log(err))
 
